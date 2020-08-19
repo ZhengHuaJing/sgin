@@ -9,7 +9,7 @@ gin + gorm + casbin + swagger + validation
 ## 目录结构
 
 ```bash
-├─demo  	     （项目名）
+├─demo  	            （项目名）
     │  ├─config         （配置包）
     │  ├─docs  	        （swagger文档目录）
     │  ├─global         （全局对象）
@@ -67,11 +67,11 @@ gin + gorm + casbin + swagger + validation
 
    - 命令行
 
-   ![1-1命令行结果图](/Users/zhenghuajing/Desktop/sgin/images/1-1命令行结果图.jpg)
+   ![1-1命令行结果图](https://github.com/ZhengHuaJing/sgin/blob/master/images/1-1命令行结果图.jpg)
 
    - API在线文档
 
-   ![1-2 API在线文档结果图](/Users/zhenghuajing/Desktop/sgin/images/1-2 API在线文档结果图.jpg)
+   ![1-2 API在线文档结果图](https://github.com/ZhengHuaJing/sgin/blob/master/images/1-2%20API在线文档结果图.jpg)
 
 
 
