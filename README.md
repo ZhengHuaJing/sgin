@@ -9,16 +9,16 @@ gin + gorm + casbin + swagger + validation
 ## 目录结构
 
 ```bash
-├─demo  	            （项目名）
+├─demo  	        （项目名）
     │  ├─config         （配置包）
     │  ├─docs  	        （swagger文档目录）
     │  ├─global         （全局对象）
     │  ├─initialiaze    （初始化）
     │  ├─middleware     （中间件）
     │  ├─model          （数据库模型层）
-    │  ├─pkg       		（公共功能）
+    │  ├─pkg            （公共功能）
     │  ├─router         （路由）
-    |  ├─runtime		 (运行时产生的文件，如日志、上传等)
+    |  ├─runtime         (运行时产生的文件，如日志、上传等)
     │  ├─service         (业务逻辑层)
 ```
 
@@ -50,10 +50,10 @@ gin + gorm + casbin + swagger + validation
    ``` yaml
    mysql:
        Type: 'mysql'
-       User: 'root' 			// 你的用户名
+       User: 'root' 		// 你的用户名
        Password: 'root123456' 	// 你的密码
        Host: '127.0.0.1:3306'
-       Name: ''  				// 你的数据库名
+       Name: ''  			// 你的数据库名
        TablePrefix:
    ```
 
