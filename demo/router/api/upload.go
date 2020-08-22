@@ -16,7 +16,7 @@ import (
 // @Produce application/json
 // @Param image formData file true "图片"
 // @Success 200 {object} app.Response "success"
-// @Router /api/v1/upload [post]
+// @Router /upload [post]
 func UploadImage(c *gin.Context) {
 	appG := app.Gin{C: c}
 
