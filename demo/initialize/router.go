@@ -19,6 +19,7 @@ import (
 
 func Router() *gin.Engine {
 	r := gin.Default()
+	r.Use(middleware.Cors())
 	{
 		// API在线文档
 		r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
